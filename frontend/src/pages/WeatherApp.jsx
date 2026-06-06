@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import WeatherMap from "@/components/WeatherMap";
-import SearchBar from "@/components/SearchBar";
-import WeatherCard from "@/components/WeatherCard";
-import LayerToggles from "@/components/LayerToggles";
-import SavedLocationsPanel from "@/components/SavedLocationsPanel";
-import RainOverlay from "@/components/RainOverlay";
-import ForecastPanel from "@/components/ForecastPanel";
-import { fetchWeather, reverseGeocode, fetchFullForecast } from "@/lib/weatherApi";
-import { useSavedLocations } from "@/hooks/useSavedLocations";
-import { useTheme } from "@/hooks/useTheme";
+import WeatherMap from "./components/WeatherMap";
+import SearchBar from "./components/SearchBar";
+import WeatherCard from "./components/WeatherCard";
+import LayerToggles from "./components/LayerToggles";
+import SavedLocationsPanel from "./components/SavedLocationsPanel";
+import RainOverlay from "./components/RainOverlay";
+import ForecastPanel from "./components/ForecastPanel";
+import { fetchWeather, reverseGeocode, fetchFullForecast } from "./lib/weatherApi";
+import { useSavedLocations } from "./hooks/useSavedLocations";
+import { useTheme } from "./hooks/useTheme";
 import {
   BookmarkSimple, CrosshairSimple, Lightning, CaretDown, CaretUp, Sun, Moon,
 } from "@phosphor-icons/react";
