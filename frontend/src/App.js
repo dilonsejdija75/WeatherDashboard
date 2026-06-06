@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import WeatherApp from "@/pages/WeatherApp";
+import WeatherApp from "./pages/WeatherApp";  // ← Changed from "@/pages/WeatherApp"
 
 function App() {
   return (
