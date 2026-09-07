@@ -11,7 +11,7 @@ from cachetools import TTLCache
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
-OWM_API_KEY = os.environ['OWM_API_KEY']
+OWM_API_KEY = os.environ['OWM_API_KEY=74c2a168b526c955e7b765b05eae680b']
 OWM_BASE = "https://api.openweathermap.org"
 OWM_TILE_BASE = "https://tile.openweathermap.org/map"
 OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"
